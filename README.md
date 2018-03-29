@@ -14,10 +14,15 @@ unbloat17_tools.sh -> unbloats, updates, and installs Visual Studio Tools.
 
 ## Usage
 Download the desired edition of the script (eg with sudo wget)
-sudo wget http://link
+
+    sudo wget https://raw.githubusercontent.com/warejacob/Ubuntu-17-Desktop-Unbloated/master/src/unbloat17.sh
+
 
 make it executable 
-sudo chmod +x ./unbloat17.sh
+
+    sudo chmod +x ./unbloat17.sh
+
 
 run it
-sudo ./unbloat17.sh
+
+    sudo ./unbloat17.sh
