@@ -16,9 +16,10 @@ sudo apt-get purge transmission-cli transmission-common transmission-daemon
 sudo apt-get purge transmission*
 sudo apt-get remove cheese
 sudo apt-get purge shotwell*
+sudo apt-get remove simple-scan
 sudo apt-get autoremove && sudo apt-get clean all && sudo apt-get autoclean all
 #lets get the VM updated shall we
 sudo apt-get update
 sudo apt-get upgrade -y
 #all done
-echo "OK!"
+echo "Cleaned all OK!"
