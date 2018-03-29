@@ -8,9 +8,11 @@ unbloat17.sh -> unbloats and updates remaining installed packages.
 
 unbloat17_vb.sh -> unbloats, updates, and prepares for VirtualBox GuestAdditions installation.
 
-unbloat17_vb_tools.sh -> same as above and installs Visual Studio Tools.
+unbloat17_vb_tools.sh -> same as above and installs Visual Studio Tools (x64).
 
-unbloat17_tools.sh -> unbloats, updates, and installs Visual Studio Tools.
+unbloat17_tools.sh -> unbloats, updates, and installs Visual Studio Tools (x64).
+
+for x32 use the \_32 version instead.
 
 ## Usage
 Download the desired edition of the script (eg with sudo wget)
