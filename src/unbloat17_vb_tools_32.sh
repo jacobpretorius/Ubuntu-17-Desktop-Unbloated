@@ -23,6 +23,7 @@ sudo apt-get remove simple-scan -y
 sudo apt-get autoremove -y
 sudo apt-get clean all -y
 sudo apt-get autoclean all -y
+sudo apt-get install gnome-control-center -y
 #lets get the VM updated shall we
 sudo apt-get update
 sudo apt-get upgrade -y
